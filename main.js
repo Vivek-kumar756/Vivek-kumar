@@ -108,7 +108,7 @@ shareBtn.addEventListener("click", (event)=>{
   {
     navigator.share({
       tittle:"My resume website Vivek Kumar",
-      url:"https://vivek-kumar789.github.io/Vivek"
+      url:"https://vivek-kumar756.github.io/Vivek-kumar/"
     })
     .then(()=>{
       console.log("share");
