@@ -190,8 +190,8 @@ input,
 #floatscrollbtn {
   display: none;
   position: fixed;
-  bottom: 78px;
-  right: 21.4px;
+  bottom: 85px;
+  right: 18px;
   float: right;
   padding: 8px;
   font-size: 18pt;
