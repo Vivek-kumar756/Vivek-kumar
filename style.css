@@ -574,13 +574,14 @@ input[type="email"]
     }
     
     #views{
+      border-radius:10px;
       padding: 10px;
-      width: 100px;
-      border-radius: 10px;
-      margin: auto;
+      font-size:12pt;
+      font-weight:600;
+      padding-left: 25px;
+      padding-right: 25px;
       background: linear-gradient(120deg, #C984FF, blueviolet, #C984FF);
       border: none;
-      font-weight: bold;
     }
     
     .views-wrapper{
