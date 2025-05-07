@@ -557,6 +557,8 @@ input[type="email"]
     .seceret-wrapper button{
 	    padding:5px;
 	    border-radius:8px;
+	    padding-top: 5px;
+	    padding-bottom:5px;
     }
     
     #secretKey {
