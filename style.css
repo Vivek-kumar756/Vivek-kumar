@@ -508,3 +508,93 @@ input[type="email"]
 .sharebox{
   padding-bottom: 20px;
 }
+
+* {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-size: 15pt;
+    }
+    
+    .counterimg {
+      width: 50%;
+      justify-self: center;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px white;
+      display: none;
+      padding: 8px;
+      margin: 10px;
+    }
+    
+    #hideyoursecret {
+      display: none;
+    }
+    
+    .seceret-wrapper {
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+      background: grey;
+      border-radius: 15px 15px 0px 0px;
+      padding: 15px;
+      transition: 0.4s;
+      transform: translateY(100vh);
+    }
+    
+    .seceret-wrapper h2 {
+      text-align: center;
+      color: white;
+    }
+    
+    .seceret-wrapper p {
+      text-align: center;
+    }
+    
+    
+    
+    #secretKey {
+      text-align: center;
+      padding: 5px;
+    }
+    
+    #text {
+      display: none;
+    }
+    
+    .input-wrapper {
+      /* background: blue; */
+      padding: 10px;
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+    }
+    
+    #views{
+      padding: 10px;
+      width: 100px;
+      border-radius: 10px;
+      margin: auto;
+      background: linear-gradient(120deg, #C984FF, blueviolet, #C984FF);
+      border: none;
+      font-weight: bold;
+    }
+    
+    .views-wrapper{
+      width:100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    #cut {
+      float: right;
+      background: none;
+      border: none;
+      position: relative;
+      bottom: 38px;
+      
+      font-size: 17pt;
+    }
