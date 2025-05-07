@@ -554,7 +554,10 @@ input[type="email"]
       text-align: center;
     }
     
-    
+    .seceret-wrapper button{
+	    padding:5px;
+	    border-radius:8px;
+    }
     
     #secretKey {
       text-align: center;
@@ -582,6 +585,7 @@ input[type="email"]
       padding-right: 35px;
       background: linear-gradient(120deg, #C984FF, blueviolet, #C984FF);
       border: none;
+      margin: 15px;
     }
     
     .views-wrapper{
