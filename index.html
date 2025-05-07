@@ -270,6 +270,23 @@
       function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) } var e = { _q: [], _h: null, _v: "2.0", on: function() { i(["on", c.call(arguments)]) }, once: function() { i(["once", c.call(arguments)]) }, off: function() { i(["off", c.call(arguments)]) }, get: function() { if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load."); return i(["get", c.call(arguments)]) }, call: function() { i(["call", c.call(arguments)]) }, init: function() { var n = t.createElement("script");
           n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n) } };!n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e }(window, document, [].slice))
   </script>
+  <div class="seceret-wrapper">
+    <button id="cut" onclick="hideBlock()"><i class="fa-solid fa-square-xmark"></i></button>
+    <h2>🗝️<br>Enter Your Key</h2>
+    <div class="input-wrapper">
+      <input type="text" id="secretKey" placeholder="Enter your key">
+      <button onclick="checking()">Enter</button>
+      <button onclick="hide()" id="hideyoursecret">hide</button>
+    </div>
+    <div class="image">
+      <script id="count" type="text/javascript" src="https://freevisitorcounters.com/en/home/counter/1336902/t/3"></script>
+      <p id="text">Users visit this website...</p>
+    </div>
+  </div>
+  
+  <div class="views-wrapper">
+    <button onclick="any()" id="views">Viewers</button>
+  </div>
   <script src="main.js"></script>
 </body>
 
