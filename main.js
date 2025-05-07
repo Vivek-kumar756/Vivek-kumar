@@ -118,3 +118,61 @@ shareBtn.addEventListener("click", (event)=>{
     })
   }
 })
+
+const inputSecret = document.querySelector("#secretKey");
+    
+    const text = document.querySelector("#text");
+    
+    const hideyoursecret = document.querySelector("#hideyoursecret");
+    
+    const data = document.querySelector(".counterimg");
+    
+    const checking = () => {
+      if (inputSecret.value === "vivek")
+      {
+        data.style.display = "block";
+        hideyoursecret.style.display = "inline";
+        text.style.display = "block";
+      }
+      else
+      {
+        alert("Your key is wrong....");
+        inputSecret.value = "";
+      }
+    }
+    
+    const hide = () => {
+      data.style.display = "none";
+      hideyoursecret.style.display = "none";
+      text.style.display = "none";
+      inputSecret.value = "";
+    }
+    var isOpened = true
+    
+    const any = () => {
+      if (isOpened)
+      {
+        const element = document.querySelector(".seceret-wrapper");
+        element.style.transform = "translateY(1vh)";
+        isOpened = false;
+      }
+      else {
+        const element = document.querySelector(".seceret-wrapper");
+        element.style.transform = "translateY(100vh)";
+        text.style.display = "none";
+        data.style.display = "none";
+        hideyoursecret.style.display = "none";
+        inputSecret.value = "";
+        isOpened = true;
+      }
+    }
+    
+    const hideBlock = () => {
+      const element = document.querySelector(".seceret-wrapper");
+      element.style.transform = "translateY(100vh)";
+      text.style.display = "none";
+      data.style.display = "none";
+      hideyoursecret.style.display = "none";
+      inputSecret.value = "";
+      isOpened = true;
+    }
